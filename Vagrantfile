@@ -22,3 +22,4 @@ Vagrant.configure("2") do |config|
      vb.customize ["modifyvm", :id, "--usbehci", "off"]
   end
 end
+
